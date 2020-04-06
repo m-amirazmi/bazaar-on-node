@@ -1,0 +1,23 @@
+<%- include("partials/header") %> <%- include("partials/navbar") %>
+<div class="container">
+  <div class="container">
+    <div class="row">
+      <h3>Makanan Baru</h3>
+    </div>
+    <div class="row">
+      <form action="/" method="POST" class="col s12 m12">
+        <input type="text" name="foodName" class="validate" id="food_name" />
+        <label for="food_name">Nama Makanan</label>
+        <input type="text" name="foodImage" class="validate" id="food_image" />
+        <label for="food_image">Gambar Makanan</label>
+        <input type="text" name="foodPrice" class="validate" id="food_price" />
+        <label for="food_price">Harga</label>
+        <input type="text" name="foodDesc" class="validate" id="food_ndesc" />
+        <label for="food_desc">Maklumat</label>
+        <div>
+          <button class="btn green">Hantar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
